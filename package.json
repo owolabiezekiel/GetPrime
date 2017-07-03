@@ -1,0 +1,24 @@
+{
+  "name": "getprimes",
+  "version": "1.0.0",
+  "description": "contains a getPrimes function that takes an integer value of n and generates prime numbers from 0 to n",
+  "main": "main/primer.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "Prime",
+    "Number",
+    "Generator",
+    "Test"
+  ],
+  "author": "Owolabi Tobiloba Ezekiel",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
