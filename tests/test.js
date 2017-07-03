@@ -35,4 +35,10 @@ describe("Getting prime numbers", function() {
     it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
         assert.deepEqual(getPrime.getPrimes(50), ([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]));
     })
+    it("should return undefined for inputs less than or equal to 1", function() {
+        assert.deepEqual(getPrime.getPrimes(-5), "undefined");
+    })
+    it("should return undefined for inputs that are not numbers", function() {
+        assert.deepEqual(getPrime.getPrimes("hello"), "undefined");
+    })
 })
