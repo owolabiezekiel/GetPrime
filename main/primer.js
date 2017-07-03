@@ -16,7 +16,7 @@ module.exports = {
         // if the input value is greater than or equal to 2
         else {
             for (var i = 2; i <= n; i++) {
-                //calls the isPrime function on the value of iterator
+                //calls the isPrime function on the value of i
                 if (isPrime(i))
                     primes.push(i);
 
