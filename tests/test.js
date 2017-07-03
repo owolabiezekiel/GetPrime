@@ -11,4 +11,28 @@ describe("Getting prime numbers", function() {
     it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
         assert.deepEqual(getPrime.getPrimes(7), ([2, 3, 5, 7]));
     })
+     it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(9), ([2, 3, 5, 7]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(20), ([2, 3, 5, 7, 11, 13, 17, 19]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(25), ([2, 3, 5, 7, 11, 13, 17, 19, 23]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(30), ([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(35), ([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(40), ([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(45), ([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43]));
+    })
+    it("should return 2, 3, 5, 7 as prime numbers in range 0 to 7", function() {
+        assert.deepEqual(getPrime.getPrimes(50), ([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]));
+    })
 })
